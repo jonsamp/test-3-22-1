@@ -11,22 +11,26 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/1608870f-d5e1-4d97-913c-d9c66280c5da"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jonsamp.test3221"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.jonsamp.test3221"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "nativeVersion"
     }
   }
 }
